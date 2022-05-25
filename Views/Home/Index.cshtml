@@ -1,0 +1,18 @@
+﻿@inject IConfiguration config;
+@inject IWebHostEnvironment env;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>
+        Env name: <b>@env.EnvironmentName</b>
+    </p>
+    <p>
+        ConStr: <b>@config.GetConnectionString("default")</b>
+    </p>
+    <p>
+        Email:Smtp: <b>@config["Email:Smtp"]</b>
+    </p>
+</div>

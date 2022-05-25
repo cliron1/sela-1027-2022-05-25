@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>6ed8d288-0409-4fab-92c6-1abcb7ebe96c</UserSecretsId>
+	</PropertyGroup>
+
+
+	<!--<ItemGroup>
+		<Content Remove="appsettings.*" Condition="'$(Configuration)'=='Release'" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<Content Update="appsettings.*" CopyToPublishDirectory="Never"></Content>
+	</ItemGroup>-->
+
+</Project>
